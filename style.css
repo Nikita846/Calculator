@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+body{
+    background: #e5ece6;
+}
+.wrapper{
+    width: 350px;
+    height: 500px;
+    margin:  65px auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+#displaystyle{
+    border: none;
+    outline: none;
+    width: 330px;
+    height: 40px;
+    color: bisque;
+    font-size: 58px;
+    font-weight: 700;
+    padding: 10px;text-align: right;
+    background: tomato;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-color: tomato;
+}
+.buttons-box{
+    margin: 35px 15px;
+
+}
+.btn{
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    border: none;
+    outline: none;
+    color: gray;
+    cursor: pointer;
+    font-size: 28px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: whitesmoke;
+}
+.btn:hover{
+background: rgba(0, 0, 0, 0.1);
+}
+.cbtn, .cbtn:hover{
+    background: tomato;
+    color: white;
+
+}
+.mbtn, .mbtn:hover{
+    background: tomato;
+    color: white;
+}
